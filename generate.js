@@ -3,8 +3,8 @@ const Database = require('better-sqlite3-multiple-ciphers')
 //connect to db
 //change the path
 //make the key
-const db = new Database('C:/Users/ivy/Desktop/d/app.db', { fileMustExist: true })
-db.pragma(`key = '6451d041f53e4d54bda00ec53b2a9db4c1195fb5b0acd024e329c951f75773f8'`)
+const db = new Database('ENTER PATH TO DB HERE', { fileMustExist: true })
+db.pragma(`key = 'ENTER KEY HERE'`)
 
 //Helpers
 function getRandomInt(min, max) {
